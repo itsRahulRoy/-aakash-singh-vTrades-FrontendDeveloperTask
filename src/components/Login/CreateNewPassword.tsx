@@ -80,7 +80,7 @@ export default function CreateNewPassword({ email }: { email: string }) {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen w-full  bg-gray-900">
+    <div className="flex items-center justify-center  w-full  bg-gray-900">
       <div className="w-full  ">
         <div className="mb-6">
           <h1 className="text-2xl font-bold text-white mb-2">

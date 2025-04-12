@@ -2,11 +2,6 @@
 
 import Image from "next/image";
 import React, { ReactNode, useEffect, useState } from "react";
-import Login from "../Login/Login";
-import ForgotPassword from "../Login/ForgotPassword";
-import OtpVerification from "../Login/OtpVerification";
-import CreateNewPassword from "../Login/CreateNewPassword";
-import PasswordSuccess from "../Login/PasswordSuccess";
 
 export const AbordWrapper = ({ children }: { children: ReactNode }) => {
   return (
