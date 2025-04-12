@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "id": "1744433251355",
+      "user": {
+        "sub": "116726664086169020168",
+        "name": "Rahul Roy",
+        "given_name": "Rahul",
+        "family_name": "Roy",
+        "picture": "https://lh3.googleusercontent.com/a/ACg8ocL_W86YDOniIyEnFxRW9VuwqVPJlNr96MTOcNoKV6-hXo4Nge4=s96-c",
+        "email": "rahul.roy@thewasserstoff.com",
+        "email_verified": true,
+        "hd": "thewasserstoff.com",
+        "source": "google"
+      },
+      "token": "cmFodWwucm95QHRoZXdhc3NlcnN0b2ZmLmNvbToxcWExcWExcWExcWFBQA=="
+    }
+  ]
+}

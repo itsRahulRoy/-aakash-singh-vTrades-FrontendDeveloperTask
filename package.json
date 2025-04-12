@@ -3,22 +3,32 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "next": "next dev",
+    "json-server": "json-server db.json --port 8500 ",
+    "dev": "concurrently \"npm run next\" \"npm run json-server\"",
+    "build": "next build"
   },
   "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "@react-oauth/google": "^0.12.1",
+    "@reduxjs/toolkit": "^2.6.1",
+    "axios": "^1.8.4",
+    "formik": "^2.4.6",
+    "jwt-decode": "^4.0.0",
+    "next": "15.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.3.0"
+    "react-redux": "^9.2.0",
+    "yup": "^1.6.1"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4"
+    "concurrently": "^9.1.2",
+    "json-server": "^1.0.0-beta.3",
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
